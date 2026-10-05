@@ -15,6 +15,14 @@ format:
 - Building open-source software for analysing neuroscientific data
 
 :::: {.columns}
+
+::: {.column width="50%" .fragment}
+**Niko Sirmpilatze** 🐁📹
+
+- Focus on videos of animal behaviour
+- Core developer of [movement](https://movement.neuroinformatics.dev/latest/index.html)
+:::
+
 ::: {.column width="50%" .fragment}
 **Alessandro Felder** 🧠🔬
 
@@ -23,12 +31,6 @@ format:
 - Community-building in bioimage analysis
 :::
 
-::: {.column width="50%" .fragment}
-**Niko Sirmpilatze** 🐁📹
-
-- Focus on videos of animal behaviour
-- Core developer of [movement](https://movement.neuroinformatics.dev/latest/index.html)
-:::
 ::::
 
 ![](img/IRS_logo.png){fig-align="center"}
