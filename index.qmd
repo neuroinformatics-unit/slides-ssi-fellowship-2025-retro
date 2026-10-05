@@ -31,17 +31,33 @@ format:
 :::
 ::::
 
+![](img/IRS_logo.png){fig-align="center"}
+
 ## Alessandro's fellowship {.smaller}
 
-Bioimage analysis and Research Software Community share similar challenges
+A bridge between Bioimage analysis and Research Software Community.
 
-* Advocacy for career paths.
-* Growing (image) data size.
+::: {.columns}
 
-But were largely disconnected. I wanted to host an event that helps build a bridge.
+::: {.column width="50%"}
+- Growing (image) data size.
+- Need for advocacy around careers.
+:::
 
+::: {.column width="50%" .fragment}
+- Technical tutorial based on [OME-Zarr textbook](https://ome-zarr-book.readthedocs.io/).
+- Community discussion and speed-blogging around career paths.
+:::
+
+:::
+
+::: {.fragment}
+Maybe (unintentionally) part of a wider strengthening of ties between the communities.
+:::
 
 ## Niko's fellowship {.smaller}
+
+The **Animals in Motion** workshop.
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -49,8 +65,6 @@ But were largely disconnected. I wanted to host an event that helps build a brid
 :::
 
 ::: {.column width="50%" .fragment}
-
-The **Animals in Motion** workshop:
 
 - Brought together 24 animal behaviour researchers from diverse fields.
 - 3 instructors trained researchers in *using* and *contributing to* open-source software tools.
@@ -68,13 +82,13 @@ The **Animals in Motion** workshop:
 
 Our main events remained independent.
 
-## The 2025 Open Software Week
+## The 2025 Open Software Week {.smaller}
 
 ![](img/OSW_2025_schedule.png)
 
 - 3 main tracks and 4 shared satellite events
-- 44 attendees from 12 countries across 4 continents
-- 13 speakers
+- 44 attendees from 12 countries (8 supported with travel stipends)
+- 13 instructors and panellists
 
 
 ## The unexpected benefits of combining {.smaller}
@@ -116,9 +130,9 @@ Our main events remained independent.
 
 ## Sustainability beyond 2025 {.smaller}
 
-- Expanded to 2 weeks: additional track, more time for collaboration and networking.
+- Expanded to 2 weeks in 2026: additional track, more time for collaboration and networking.
 - A mixed funding model, combining sponsorship with registrations fees.
-- 51 attendees and 17 instructors!
+- 51 attendees from 16 countries (11 supported with travel stipends) and 17 instructors from 5 institutions.
 - Same format planned for 2027.
 
 ![Schedule for the 2026 Open Software Summer School.](img/OSSS_2026_schedule.png) 
