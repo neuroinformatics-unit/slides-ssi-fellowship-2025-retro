@@ -1,119 +1,156 @@
 ---
-title: A template presentation
-subtitle: Made with Quarto and RevealJS
-author: SWC/GCNU Neuroinformatics Unit
-date: today
+title: The Open Software Summer School
+subtitle: and how our combined fellowships led to it.
+author: Alessandro Felder & Niko Sirmpilatze
+date: 2026-10-07
 format:
   revealjs:
-    footer: "Location | Event | Date"
-my-custom-stuff:
-   my-reuseable-variable: "I can use this wherever I want in the markdown, and change it in only once place :)"
+    footer: "All Fellows Community Call | 2026-10-07"
 ---
 
-## Contents
+## Who we are {.smaller}
 
-We can use all the normal markdown features here, like:
+- 2025 Institute for Research Software Fellows
+- Senior Research Software Engineers at the [Neuroinformatics Unit](https://neuroinformatics.dev/index.html)
+- Building open-source software for analysing neuroscientific data
 
-- Bullet lists
-- **Bold text**
-- *Italic text*
-- `Inline code`
+:::: {.columns}
+::: {.column width="50%" .fragment}
+**Alessandro Felder** 🧠🔬
 
-::: aside
-[See also example RevealJS slides in the Quarto docs.](https://quarto.org/docs/presentations/revealjs/)
+- Focus on whole-brain microscopy
+- Core developer of [BrainGlobe](https://brainglobe.info)
+- Community-building in bioimage analysis
 :::
 
-## Just a code block, nothing gets executed...
+::: {.column width="50%" .fragment}
+**Niko Sirmpilatze** 🐁📹
 
-... but there is some fancy highlighting
+- Focus on videos of animal behaviour
+- Core developer of [movement](https://movement.neuroinformatics.dev/latest/index.html)
+:::
+::::
 
-```{.python code-line-numbers="1|3|4-9"}
-from pathlib import Path
+## Alessandro's fellowship {.smaller}
 
-home_path = Path.home()
-if home_path.exists():
-  data_path = home_path / "data"
-else:
-  pass
-  # raise some error maybe?
-```
+Bioimage analysis and Research Software Community share similar challenges
 
-## A code block that's actually executed at render-time
+* Advocacy for career paths.
+* Growing (image) data size.
 
-```{python}
-#| echo: true
-#| code-fold: true
-
-from pathlib import Path
-
-print("Hello world")
-```
-
-## You can execute code without showing that you have by using #|echo: false
-```{python}
-#| echo: false
-
-from pathlib import Path
-
-print("Hello world")
-```
-
-{{< include slides/extra_slide.qmd >}}
-
-## An example image
-
-Include an image:
-
-![](img/bg_logo_wide.png){width=900 fig-align=center}
+But were largely disconnected. I wanted to host an event that helps build a bridge.
 
 
-## Link and a preview a webpage:
+## Niko's fellowship {.smaller}
 
-::: {style="text-align: center; margin-top: 1em"}
-[interoperable Python-based tools for computational neuroanatomy](https://brainglobe.info/index.html){preview-link="true" style="text-align: center"}
+:::: {.columns}
+::: {.column width="50%"}
+![](img/fields_converge_on_tracking.png)
 :::
 
-## Use a variable several times
+::: {.column width="50%" .fragment}
 
-Variables defined in the metadata is re-useable anywhere
+The **Animals in Motion** workshop:
 
-* {{< meta my-custom-stuff.my-reuseable-variable >}}
-* {{< meta my-custom-stuff.my-reuseable-variable >}}
-
-## Admonitions / Callouts
-
-:::{.callout-note}
-## Note Callout
-
-This is a note callout.
+- Brought together 24 animal behaviour researchers from diverse fields.
+- 3 instructors trained researchers in *using* and *contributing to* open-source software tools.
+- Open teaching materials as an [online handbook](https://animals-in-motion.neuroinformatics.dev/).
+- Hackday helped blur the lines between users and developers.
 :::
 
-:::{.callout-tip}
-## Tip Callout
+::::
 
-This is a tip callout.
+## Combining fellowships made sense
+
+* We planned to host in the same building.
+* Joint socials, hackday and introductory classes.
+* Shared administrative burden.
+
+Our main events remained independent.
+
+## The 2025 Open Software Week
+
+![](img/OSW_2025_schedule.png)
+
+- 3 main tracks and 4 shared satellite events
+- 44 attendees from 12 countries across 4 continents
+- 13 speakers
+
+
+## The unexpected benefits of combining {.smaller}
+
+* Accountability partners
+* More institutional support & additional funding
+* Cross-pollination between participants
+* Buy-in from colleagues and invited panellists
+* Led to re-usable open teaching materials
+* Doubles up as a course for our institute's PhD programme
+
+![](img/sponsor-logos.png)
+
+## Impressions from the 2025 event {.smaller}
+
+::: {.columns}
+::: {.column width="50%"}
+![Attendees and instructors of the 2025 Open Software Week.](img/OSW_2025_group_photo.jpg)
 :::
 
-:::{.callout-warning}
-## Warning Callout
+::: {.column width="50%"}
+> My whole PhD feels doable now!
 
-This is a warning callout.
+> Atmosphere was very friendly and down to earth.
+
+> The heterogeneity of the attendees was truly enriching.
+
+> It was incredibly valuable to learn directly from the developers and share the space with researchers from across the field.
 :::
 
-## Citing references
+::::
 
-- To cite references, include them in the `references.bib` BibTeX file
-and then use the syntax `[@citekey]` to cite them.
-- For example, our preprint of the Blackcap brain atlas [@blackcap_preprint].
-- You can preview the reference entry by hovering over the citation, cool!
 
-::: aside
-[Read more about Quarto citations](https://quarto.org/docs/authoring/citations.html#sec-citations).
+## Lessons re-learnt
+
+* Select people that REALLY want to come.
+* Weave general good-practice training into domain-specific courses.
+* Set a friendly tone, using tricks from Collaboration Workshops.
+
+## Sustainability beyond 2025 {.smaller}
+
+- Expanded to 2 weeks: additional track, more time for collaboration and networking.
+- A mixed funding model, combining sponsorship with registrations fees.
+- 51 attendees and 17 instructors!
+- Same format planned for 2027.
+
+![Schedule for the 2026 Open Software Summer School.](img/OSSS_2026_schedule.png) 
+
+## Impressions from the 2026 event {.smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
+![Attendees and instructors of the 2026 Open Software Summer School.](img/OSSS_2026_group_photo.jpeg)
 :::
 
-## References {.smaller}
+::: {.column width="50%"}
+> The environment is truly encouraging to work on your project and to learn new things!
 
-This is how you create a references section, i.e. a bibliography.
+> The best thing was to talk to other people about our challenges and find solutions together.
 
-::: {#refs}
+> Fantastic content! Very accessible and explained in a great manner.
+
+> It has honestly been the best thing I have done in my PhD.
 :::
+::::
+
+## Conclusions
+
+- Our fellowships started as separate ideas.
+- Combining them into a shared event had many unexpected benefits.
+- Institutional buy-in and support from colleagues made it grow into a sustainable, annual summer school.
+
+::: {.fragment}
+::: {.callout-tip}
+- Read more in our [blogposts](https://www.software.ac.uk/blog/greater-sum-its-parts-establishing-open-software-week-combining-our-ssi-fellowships).
+- Keep an eye out for the [2027 summer school](https://neuroinformatics.dev/open-software-summer-school/index.html).
+:::
+:::
+
