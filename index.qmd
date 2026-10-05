@@ -52,7 +52,16 @@ A bridge between Bioimage analysis and Research Software Community.
 :::
 
 ::: {.fragment}
+19 participants, 11 from outside UK, many imaging facility staff.
+
 Maybe (unintentionally) part of a wider strengthening of ties between the communities.
+:::
+
+
+::: {.fragment}
+::: {.callout-note}
+Also ran a more subdomain-specific BrainGlobe track, with 15 participants.
+:::
 :::
 
 ## Niko's fellowship {.smaller}
