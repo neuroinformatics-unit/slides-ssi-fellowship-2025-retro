@@ -10,9 +10,9 @@ format:
 
 ## Who we are {.smaller}
 
-- 2025 Institute for Research Software Fellows
-- Senior Research Software Engineers at the [Neuroinformatics Unit](https://neuroinformatics.dev/index.html)
-- Building open-source software for analysing neuroscientific data
+- Institute for Research Software Fellows (2025)
+- Senior Research Software Engineers at the [Sainsbury Wellcome Centre](https://www.sainsburywellcome.org/web/) (UCL)
+- [Neuroinformatics Unit](https://neuroinformatics.dev/index.html): building open-source software for neuroscience
 
 :::: {.columns}
 
@@ -33,7 +33,27 @@ format:
 
 ::::
 
-![](img/IRS_logo.png){fig-align="center"}
+![](img/IRS_SWC_UCL.png){fig-align="center"}
+
+## Niko's fellowship {.smaller}
+
+**Animals in Motion**: empowering behavioural researchers with open-source tools
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {layout="[[70], [30]]" layout-halign="center"}
+![](img/fields_converge_on_tracking.png)
+![](img/sleap_movie.gif)
+:::
+:::
+
+::: {.column width="50%" .incremental}
+- Brought together 24 animal behaviour researchers from diverse fields.
+- They were trained by 3 instructors in *using* and *contributing to* relevant open-source tools.
+- Open teaching materials made available as [online handbook](https://animals-in-motion.neuroinformatics.dev/).
+:::
+
+::::
 
 ## Alessandro's fellowship {.smaller}
 
@@ -65,25 +85,6 @@ Maybe (unintentionally) part of a wider strengthening of ties between the commun
 Also ran a more subdomain-specific BrainGlobe track, with 15 participants.
 :::
 :::
-
-## Niko's fellowship {.smaller}
-
-The **Animals in Motion** workshop.
-
-:::: {.columns}
-::: {.column width="50%"}
-![](img/fields_converge_on_tracking.png)
-:::
-
-::: {.column width="50%" .fragment}
-
-- Brought together 24 animal behaviour researchers from diverse fields.
-- 3 instructors trained researchers in *using* and *contributing to* open-source software tools.
-- Open teaching materials as an [online handbook](https://animals-in-motion.neuroinformatics.dev/).
-- Hackday helped blur the lines between users and developers.
-:::
-
-::::
 
 ## Combining fellowships made sense
 
