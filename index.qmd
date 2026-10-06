@@ -61,13 +61,23 @@ A bridge between Bioimage analysis and Research Software Community.
 
 ::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="50%" .fragment}
 - Growing (image) data size.
-- Need for advocacy around careers.
 :::
 
 ::: {.column width="50%" .fragment}
 - Technical tutorial based on [OME-Zarr textbook](https://ome-zarr-book.readthedocs.io/).
+:::
+
+:::
+
+::: {.columns}
+
+::: {.column width="50%".fragment}
+- Need for advocacy around careers.
+:::
+
+::: {.column width="50%" .fragment}
 - Community discussion and speed-blogging around career paths.
 :::
 
