@@ -10,9 +10,9 @@ format:
 
 ## Who we are {.smaller}
 
-- 2025 Institute for Research Software Fellows
-- Senior Research Software Engineers at the [Neuroinformatics Unit](https://neuroinformatics.dev/index.html)
-- Building open-source software for analysing neuroscientific data
+- Institute for Research Software Fellows (2025)
+- Senior Research Software Engineers at the [Sainsbury Wellcome Centre](https://www.sainsburywellcome.org/web/) (UCL)
+- [Neuroinformatics Unit](https://neuroinformatics.dev/index.html): building open-source software for neuroscience
 
 :::: {.columns}
 
@@ -33,7 +33,7 @@ format:
 
 ::::
 
-![](img/IRS_logo.png){fig-align="center"}
+![](img/IRS_SWC_UCL.png){fig-align="center"}
 
 ## Alessandro's fellowship {.smaller}
 
